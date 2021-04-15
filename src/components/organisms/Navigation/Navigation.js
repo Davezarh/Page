@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <Wrapper>
       <StyledLink to="/home">Home</StyledLink>
-      <StyledLink to="/nasiona">Nasiona</StyledLink>
+      <StyledLink to="/ziarna">Ziarna</StyledLink>
       <StyledLink to="/menu">Menu</StyledLink>
       <StyledLink to="/kontakt">Kontakt</StyledLink>
     </Wrapper>

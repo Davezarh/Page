@@ -13,7 +13,7 @@ const Root = () => (
       <MainTemplate>
         <Wrapper>
           <Switch>
-            <Route path="/nasiona"></Route>
+            <Route path="/ziarna"></Route>
             <Route path="/menu"></Route>
             <Route path="/kontakt"></Route>
             <Route path="/">
