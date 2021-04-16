@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  opacity: 0.55;
+  opacity: 0.7;
   height: 100vh;
   background-image: url(${Coffee});
   background-position: center;
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 `;
 export const StyledTitle = styled.h1`
   position: absolute;
-  font-size: ${({ theme }) => theme.fonts.xxl};
+  font-size: ${({ theme }) => theme.fonts.xxxl};
   color: ${({ theme }) => theme.colors.crimson};
   top: 50vh;
   left: 42vw;
