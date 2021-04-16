@@ -7,7 +7,8 @@ export const theme = {
     crimson: '#DC143C',
   },
   fonts: {
-    xxl: '60px',
+    xxxl: '60px',
+    xxl: '40px',
     xl: '30px',
     l: '24px',
     m: '18px',
