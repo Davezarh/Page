@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Header,
   DarkRoastedImage,
   LightRoastedImage,
   MediumRoastedImage,
@@ -11,6 +12,7 @@ import {
 const Beans = () => {
   return (
     <>
+      <Header>Jaka Kawa jest najlepsza dla ciebie?</Header>
       <Wrapper>
         <LightRoastedImage />
         <StyledHeader>

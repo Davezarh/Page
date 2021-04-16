@@ -3,6 +3,15 @@ import lightRoasted from '../../../assets/images/light-Roasted.png';
 import mediumRoasted from '../../../assets/images/medium-Roasted.png';
 import darkRoasted from '../../../assets/images/dark-Roasted.png';
 
+export const Header = styled.div`
+  font-size: ${({ theme }) => theme.fonts.xxl};
+  background-color: ${({ theme }) => theme.colors.grey};
+  color: ${({ theme }) => theme.colors.crimson};
+  display: block;
+  text-align: center;
+  padding: 50px;
+`;
+
 export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.grey};
   display: grid;
