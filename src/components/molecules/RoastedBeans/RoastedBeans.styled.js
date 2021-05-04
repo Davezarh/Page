@@ -1,0 +1,59 @@
+import styled from 'styled-components';
+import lightRoasted from '../../../assets/images/beans/light-Roasted.png';
+import mediumRoasted from '../../../assets/images/beans/medium-Roasted.png';
+import darkRoasted from '../../../assets/images/beans/dark-Roasted.png';
+
+export const Wrapper = styled.section`
+  display: grid;
+  grid-template-columns: 280px 320px 280px;
+  grid-template-rows: 300px 100px 250px;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+`;
+export const Header = styled.h2`
+  font-size: ${({ theme }) => theme.fonts.xl};
+  display: grid;
+  justify-items: center;
+  grid-row-start: 2;
+  line-height: 1.5;
+  span {
+    font-weight: normal;
+    color: ${({ theme }) => theme.colors.lightBlack};
+    line-height: 1.5;
+  }
+`;
+
+export const Text = styled.article`
+  font-size: ${({ theme }) => theme.fonts.l};
+  color: ${({ theme }) => theme.colors.Black};
+  display: grid;
+  grid-row-start: 3;
+  text-align: center;
+  line-height: 1.5;
+`;
+
+export const LightRoastedImage = styled.div`
+  height: 230px;
+  background-image: url(${lightRoasted});
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
+
+export const MediumRoastedImage = styled.div`
+  height: 260px;
+  background-image: url(${mediumRoasted});
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
+
+export const DarkRoastedImage = styled.div`
+  height: 230px;
+  background-image: url(${darkRoasted});
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
