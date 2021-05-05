@@ -6,7 +6,7 @@ import { Header, Wrapper } from './Beans.style';
 const Beans = () => {
   return (
     <Wrapper>
-      <Header>Wybierz rodzaj nasiona dla twojego napoju.</Header>
+      <Header>Rodzaj Ziarna </Header>
       <TypesOfBeans></TypesOfBeans>
       <Header>Jaki Stopień palenia perefrujesz?</Header>
       <RoastedBeans></RoastedBeans>
