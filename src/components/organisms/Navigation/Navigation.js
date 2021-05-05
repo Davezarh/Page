@@ -7,7 +7,6 @@ const Navigation = () => {
       <StyledLink to="/home">Home</StyledLink>
       <StyledLink to="/ziarna">Ziarna</StyledLink>
       <StyledLink to="/menu">Menu</StyledLink>
-      <StyledLink to="/kontakt">Kontakt</StyledLink>
     </Wrapper>
   );
 };
