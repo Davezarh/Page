@@ -6,6 +6,8 @@ import React from 'react';
 import { Wrapper } from './Root.styled';
 import MainTemplate from 'components/templates/MainTemplate/MainTemplate';
 import Home from 'views/Home';
+import Beans from 'components/organisms/Beans/Beans';
+import Menu from 'components/organisms/Menu/Menu';
 const Root = () => (
   <Router>
     <ThemeProvider theme={theme}>
@@ -13,9 +15,12 @@ const Root = () => (
       <MainTemplate>
         <Wrapper>
           <Switch>
-            <Route path="/ziarna"></Route>
-            <Route path="/menu"></Route>
-            <Route path="/kontakt"></Route>
+            <Route path="/ziarna">
+              <Beans></Beans>
+            </Route>
+            <Route path="/menu">
+              <Menu></Menu>
+            </Route>
             <Route path="/">
               <Home></Home>
             </Route>
