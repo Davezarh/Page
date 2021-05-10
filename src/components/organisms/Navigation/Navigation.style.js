@@ -7,6 +7,7 @@ export const Wrapper = styled.nav`
   align-items: center;
   justify-content: flex-end;
   width: 100%;
+  background-color: ${({ theme }) => theme.colors.cream};
 `;
 export const StyledLink = styled(NavLink)`
   margin: 10px 20px;
