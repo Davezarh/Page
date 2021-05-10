@@ -4,7 +4,6 @@ export const Wrapper = styled.section`
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
-  background: ${({ theme }) => theme.colors.grey};
 `;
 export const Header = styled.h2`
   text-align: center;

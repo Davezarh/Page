@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.colors.lightGrey};
+export const Header = styled.h2`
+  text-align: center;
+  color: #c24400;
 `;
-export const StyledMenu = styled.ul`
-  list-style: none;
+
+export const Wrapper = styled.section`
+  background: ${({ theme }) => theme.colors.cream};
+  width: 100%;
+  height: 100%;
 `;
