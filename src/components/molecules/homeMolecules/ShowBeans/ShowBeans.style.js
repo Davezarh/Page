@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import beans from 'assets/images/ShowBeans1.jpg';
+import beans from 'assets/images/home/ShowBeans.jpg';
 export const Wrapper = styled.main`
   width: 100%;
 `;
@@ -25,9 +25,9 @@ export const Image = styled.article`
 `;
 
 export const Button = styled.button`
-  background: #a62b2b96;
+  background: ${({ theme }) => theme.colors.lightBrown};
   color: ${({ theme }) => theme.colors.white};
-  font-size: 17px;
+  font-size: ${({ theme }) => theme.fonts.m};
   border-radius: 3%;
   padding: 15px;
   border: none;

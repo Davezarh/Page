@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Header = styled.h2`
   text-align: center;
-  color: #c24400;
+  color: ${({ theme }) => theme.colors.brown};
 `;
 
 export const Wrapper = styled.section`

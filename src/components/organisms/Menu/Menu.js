@@ -1,8 +1,8 @@
 import React from 'react';
 import MenuCoffee from '../../molecules/menuMolecules/MenuCoffee/menuCoffee';
-import MenuTea from '../../molecules/MenuTea/menuTea';
-import MenuDrinks from '../../molecules/MenuDrinks/menuDrinks';
-import MenuFood from 'components/molecules/MenuFood/menuFood';
+import MenuTea from '../../molecules/menuMolecules/MenuTea/menuTea';
+import MenuDrinks from '../../molecules/menuMolecules/MenuDrinks/menuDrinks';
+import MenuFood from 'components/molecules/menuMolecules/MenuFood/menuFood';
 import Footer from 'components/organisms/Footer/Footer';
 import { Header, Wrapper } from './Menu.style';
 const Menu = () => {

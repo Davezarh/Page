@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import arabica from '../../../assets/images/beans/arabica.png';
-import robusta from '../../../assets/images/beans/robusta.png';
+import arabica from 'assets/images/beans/arabica.png';
+import robusta from 'assets/images/beans/robusta.png';
 
 export const Main = styled.section`
   height: 100vh;

@@ -4,7 +4,7 @@ import {
   NameItem,
   Price,
   Currency,
-} from '../../atoms/menuItems/menuItems';
+} from '../../../atoms/menuItems/menuItems';
 export const Drinks = () => {
   return (
     <ItemsList>

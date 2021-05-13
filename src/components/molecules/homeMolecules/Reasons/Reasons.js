@@ -6,12 +6,12 @@ import {
   Description,
   SecondSection,
 } from './Reasons.style';
-import { ReactComponent as Beans } from 'assets/images/icons/beans.svg';
-import { ReactComponent as Coffee } from 'assets/images/icons/coffee.svg';
-import { ReactComponent as Music } from 'assets/images/icons/music.svg';
-import { ReactComponent as Coupon } from 'assets/images/icons/coupon.svg';
-import { ReactComponent as Wifi } from 'assets/images/icons/wifi.svg';
-import { ReactComponent as Horse } from 'assets/images/icons/horse.svg';
+import { ReactComponent as Beans } from 'assets/images/home/icons/beans.svg';
+import { ReactComponent as Coffee } from 'assets/images/home/icons/coffee.svg';
+import { ReactComponent as Music } from 'assets/images/home/icons/music.svg';
+import { ReactComponent as Coupon } from 'assets/images/home/icons/coupon.svg';
+import { ReactComponent as Wifi } from 'assets/images/home/icons/wifi.svg';
+import { ReactComponent as Horse } from 'assets/images/home/icons/horse.svg';
 const Reasons = () => {
   return (
     <Wrapper>

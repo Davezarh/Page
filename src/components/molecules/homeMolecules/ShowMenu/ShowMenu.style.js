@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ShowMenu from 'assets/images/showMenu.jpg';
+import ShowMenu from 'assets/images/home/showMenu.jpg';
 export const Wrapper = styled.main`
   background: ${({ theme }) => theme.colors.cream};
   width: 100%;
