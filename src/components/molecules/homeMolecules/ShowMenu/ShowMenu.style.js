@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import ShowMenu from 'assets/images/home/showMenu.jpg';
+import ShowMenu from 'assets/images/home/images/showMenu.jpg';
 export const Wrapper = styled.main`
   background: ${({ theme }) => theme.colors.cream};
-  width: 100%;
+  width: 100vw;
 `;
 
 export const Section = styled.section`
@@ -28,7 +28,7 @@ export const Description = styled.article`
   grid-column-start: 2;
   line-height: 1.5;
   margin-bottom: 20px;
-  width: 100%;
+  width: 50vw;
   span {
     text-align: center;
     width: 20%;

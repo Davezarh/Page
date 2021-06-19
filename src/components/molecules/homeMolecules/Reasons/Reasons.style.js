@@ -2,14 +2,17 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.main`
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background: ${({ theme }) => theme.colors.lightGrey};
+
   h1 {
     text-align: center;
-    margin-bottom: 15px;
-    color: red;
+    padding: 25px;
+    color: ${({ theme }) => theme.colors.crimson};
+    margin-block-start: 0;
   }
 `;
+
 export const FirstSection = styled.section`
   display: grid;
   grid-template-columns: 200px 200px 200px;
@@ -29,7 +32,7 @@ export const SecondSection = styled.section`
 export const ImageBox = styled.div`
   display: grid;
   justify-items: center;
-  color: red;
+  color: ${({ theme }) => theme.colors.crimson};
 `;
 export const Description = styled.span`
   grid-row-start: 2;

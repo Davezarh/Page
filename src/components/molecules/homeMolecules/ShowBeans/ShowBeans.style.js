@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import beans from 'assets/images/home/ShowBeans.jpg';
+import beans from 'assets/images/home/images/ShowBeans.jpg';
 export const Wrapper = styled.main`
   width: 100%;
 `;

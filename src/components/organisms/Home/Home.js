@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <>
       <Wrapper>
-        Light Cafe Lekkość to marzenie, każdej kawy.
         <Reasons></Reasons>
         <ShowMenu></ShowMenu>
         <ShowBeans></ShowBeans>

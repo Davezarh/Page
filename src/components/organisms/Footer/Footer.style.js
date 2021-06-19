@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import image from '../../../assets/images/footer.jpg';
+import image from '../../../assets/images/footer/footer.jpg';
 
 export const FooterImage = styled.div`
   position: relative;

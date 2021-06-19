@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import lightRoasted from 'assets/images/beans/light-Roasted.png';
-import mediumRoasted from 'assets/images/beans/medium-Roasted.png';
-import darkRoasted from 'assets/images/beans/dark-Roasted.png';
+import lightRoasted from 'assets/images/beans/RoastedBeans/light-Roasted.png';
+import mediumRoasted from 'assets/images/beans/RoastedBeans/medium-Roasted.png';
+import darkRoasted from 'assets/images/beans/RoastedBeans/dark-Roasted.png';
 
 export const Main = styled.section`
   height: 100vh;
